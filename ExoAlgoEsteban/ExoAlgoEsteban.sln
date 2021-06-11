@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jeune à 35", "Jeune à 35\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diviseur de Nombre", "ConsoleApp1\Diviseur de Nombre.csproj", "{9DA9E552-28DF-4175-B7F6-E5B6030F35F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fourchette", "Fourchette\Fourchette.csproj", "{A97768AB-9F69-4EA0-A90A-8993BED920F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fourchette", "Fourchette\Fourchette.csproj", "{A97768AB-9F69-4EA0-A90A-8993BED920F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les courses de Barnabé", "Les courses de Barnabé\Les courses de Barnabé.csproj", "{262531DE-5BA3-44DA-B0E1-132352A24D33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{A97768AB-9F69-4EA0-A90A-8993BED920F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A97768AB-9F69-4EA0-A90A-8993BED920F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A97768AB-9F69-4EA0-A90A-8993BED920F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262531DE-5BA3-44DA-B0E1-132352A24D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262531DE-5BA3-44DA-B0E1-132352A24D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262531DE-5BA3-44DA-B0E1-132352A24D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262531DE-5BA3-44DA-B0E1-132352A24D33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
