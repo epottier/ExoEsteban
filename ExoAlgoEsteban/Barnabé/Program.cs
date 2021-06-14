@@ -6,17 +6,28 @@ namespace Barnabé
     {
         static void Main(string[] args)
         {
-            int Somme_du_Porte_Monnaie = int.Parse(Console.ReadLine());
-            Console.WriteLine("Barnabé est partit faire ses courses avec" + Somme_du_Porte_Monnaie + " €.");
+            // déclaration + initialisation = Saisie
+            int somme_du_porte_monnaie = int.Parse(Console.ReadLine());
+            Console.WriteLine("Barnabé est partit faire ses courses avec " + somme_du_porte_monnaie + " €.");
             Console.WriteLine("Nous cherchons à déterminer le nombre de magasin qu'il a visité.");
-            int Nombre_de_Magasins_Visité = 0;
-            while (Somme_du_Porte_Monnaie > Somme_du_Porte_Monnaie/2 + 1)
+            int nombre_de_Magasins_Visité = 0;
+            
+            // Traitement
+            if (somme_du_porte_monnaie > 1)
             {
-                Nombre_de_Magasins_Visité++;
-                Somme_du_Porte_Monnaie = Somme_du_Porte_Monnaie / 2;
+                while (somme_du_porte_monnaie >= somme_du_porte_monnaie / 2 + 1)
+                {
+                    nombre_de_Magasins_Visité++;
+                    somme_du_porte_monnaie = somme_du_porte_monnaie / 2;
+                }
+                if (somme_du_porte_monnaie != 0)
+                {
+                    nombre_de_Magasins_Visité++;
+                }
             }
-            Nombre_de_Magasins_Visité++;
-            Console.WriteLine("Barnabé à fais ses cours dans " + Nombre_de_Magasins_Visité + " magasin(s).");
+            
+            // affichage
+            Console.WriteLine("Barnabé à fais ses cours dans " + nombre_de_Magasins_Visité + " magasin(s).");
         }
     }
 }
