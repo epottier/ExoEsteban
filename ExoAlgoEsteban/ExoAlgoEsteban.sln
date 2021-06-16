@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fourchette", "Fourchette\Fo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Les courses de Barnabé", "Les courses de Barnabé\Les courses de Barnabé.csproj", "{262531DE-5BA3-44DA-B0E1-132352A24D33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barnabé", "Barnabé\Barnabé.csproj", "{DD3D72EB-A32C-4517-ABBA-F4B8C3EEEADE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barnabé", "Barnabé\Barnabé.csproj", "{DD3D72EB-A32C-4517-ABBA-F4B8C3EEEADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeux du 0, 1, 2", "Jeux du 0, 1, 2\Jeux du 0, 1, 2.csproj", "{B9241A59-D024-45E5-A401-A9EB1C23E005}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{DD3D72EB-A32C-4517-ABBA-F4B8C3EEEADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD3D72EB-A32C-4517-ABBA-F4B8C3EEEADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD3D72EB-A32C-4517-ABBA-F4B8C3EEEADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9241A59-D024-45E5-A401-A9EB1C23E005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9241A59-D024-45E5-A401-A9EB1C23E005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9241A59-D024-45E5-A401-A9EB1C23E005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9241A59-D024-45E5-A401-A9EB1C23E005}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

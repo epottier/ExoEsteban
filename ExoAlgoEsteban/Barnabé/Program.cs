@@ -25,9 +25,12 @@ namespace Barnabé
                     nombre_de_Magasins_Visité++;
                 }
             }
-            
+            else
+            {
+                Console.WriteLine("Barnabé ne visite aucun magasin.");
+            }
             // affichage
-            Console.WriteLine("Barnabé à fais ses cours dans " + nombre_de_Magasins_Visité + " magasin(s).");
+            Console.WriteLine("Barnabé à fais ses courses dans " + nombre_de_Magasins_Visité + " magasin(s).");
         }
     }
 }
