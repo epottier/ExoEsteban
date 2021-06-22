@@ -29,14 +29,14 @@ namespace PRemeir_Tableau
             //traitement
 
             int i = 0;
-            while ((nb_quelconque != nbElements[i]) && (i < nbElements.Length))
+            while ((i < nbElements.Length) && (nb_quelconque != nbElements[i]))
             {
                 i++;                          
             }
 
             //affichage
             
-            if (nb_quelconque == nbElements[i])
+            if (((i < nbElements.Length)) && (nb_quelconque == nbElements[i]))
             {
                 Console.WriteLine("Le nombre se trouve bien dans le tableau en position " + i + ".");
             }
