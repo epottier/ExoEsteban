@@ -36,7 +36,7 @@ namespace PRemeir_Tableau
 
             //affichage
             
-            if (((i < nbElements.Length)) && (nb_quelconque == nbElements[i]))
+            if ((i < nbElements.Length) && (nb_quelconque == nbElements[i]))
             {
                 Console.WriteLine("Le nombre se trouve bien dans le tableau en position " + i + ".");
             }

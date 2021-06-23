@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jeux du 0, 1, 2", "Jeux du 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Premier_Tableau", "PRemeir_Tableau\Premier_Tableau.csproj", "{1A549212-B15F-4618-981D-6F5904AFEA19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaîne de charactère", "Chaîne de charactère\Chaîne de charactère.csproj", "{FA1B3086-2EFD-42DB-B0DC-F136D5CC09F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{1A549212-B15F-4618-981D-6F5904AFEA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A549212-B15F-4618-981D-6F5904AFEA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A549212-B15F-4618-981D-6F5904AFEA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1B3086-2EFD-42DB-B0DC-F136D5CC09F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1B3086-2EFD-42DB-B0DC-F136D5CC09F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1B3086-2EFD-42DB-B0DC-F136D5CC09F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1B3086-2EFD-42DB-B0DC-F136D5CC09F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
