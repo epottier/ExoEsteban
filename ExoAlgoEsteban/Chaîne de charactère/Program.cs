@@ -6,8 +6,10 @@ namespace Chaîne_de_charactère
     {
         static void Main(string[] args)
         {
-            Console.WriteLine
-            string messageLu= Console.ReadLine();
+            Console.WriteLine("Veuillez insérer une phrase");
+            string messageLu = Console.ReadLine();
+            Console.WriteLine("Veuillez écrire un caractère");
+            string caractèreCherché = Console.ReadLine();
 
         }
     }
